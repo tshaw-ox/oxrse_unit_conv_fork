@@ -29,6 +29,8 @@ lb = pound
 celsius = Unit(name='celsius', abbr='C', si=kelvin, to_si_fun=lambda n: n+237.15)
 
 
+celsius = Unit(name='celsius', abbr='C', si=kelvin, to_si_fun=lambda n: n+273.15)
+
 # mole
 
 # candela
