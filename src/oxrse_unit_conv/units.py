@@ -15,7 +15,13 @@ km = kilometer
 mile = Unit(name='mile', abbr='mile', si=meter, to_si_fun=lambda n: n * 1_609.344)
 
 # meter_sq
+# meter_sq = classes.SIUnit("meter_sq", "m", 2)
+# m2 = meter_sq
 
+## RUN LIKE oxrse-unit-conv 10 mile_sq m2
+## SQUARE MILES TO SQUARE METERS
+mile_sq = Unit(name='mile_sq', abbr="mi2", si=meter_sq, to_si_fun=lambda n: n*2590000)
+mi2 = mile_sq
 # meter_cu
 
 # kilogram
