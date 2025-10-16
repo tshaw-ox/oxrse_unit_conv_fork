@@ -17,6 +17,8 @@ mile = Unit(name='mile', abbr='mile', si=meter, to_si_fun=lambda n: n * 1_609.34
 # meter_sq
 
 # meter_cu
+litres = Unit(name='litres', abbr='l', si=meter_cu, to_si_fun=lambda n: n*0.001)
+cubic_foot = Unit(name='cubic_foot', abbr='ft_cu', si=meter_cu, to_si_fun=lambda n: n* 0.0283168)        
 
 # kilogram
 
